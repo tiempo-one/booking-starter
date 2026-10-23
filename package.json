@@ -1,0 +1,35 @@
+{
+  "name": "booking-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "next typegen && tsc --noEmit",
+    "setup": "node scripts/setup.mjs",
+    "race": "node scripts/race.mjs"
+  },
+  "dependencies": {
+    "@doubletap/tiempo": "^0.1.0",
+    "next": "16.4.2",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "server-only": "^0.0.1",
+    "stripe": "^23.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.2",
+    "typescript": "^5"
+  },
+  "description": "A barbershop booking app on Next.js and the Tiempo scheduling API: availability, holds that expire, payment, and no double-booking.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.9"
+  }
+}
