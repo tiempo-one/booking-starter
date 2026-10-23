@@ -1,7 +1,7 @@
 // Creates the demo barbershop in your Tiempo test mode: one account, three barbers and their
 // hours. Writes TIEMPO_ACCOUNT_ID and TIEMPO_BARBERS to .env.local. Run with: npm run setup
 import { appendFileSync } from 'node:fs'
-import { Tiempo } from '@doubletap/tiempo'
+import { Tiempo } from '@tiempo/sdk'
 import { ENV_FILE, loadEnv, testKey } from './env.mjs'
 
 loadEnv()

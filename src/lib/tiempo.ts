@@ -1,5 +1,5 @@
 import 'server-only'
-import { Tiempo } from '@doubletap/tiempo'
+import { Tiempo } from '@tiempo/sdk'
 
 let client: Tiempo | undefined
 

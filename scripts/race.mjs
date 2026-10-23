@@ -1,7 +1,7 @@
 // The double-booking test: 20 customers try to hold the same barber at the same time, all at
 // once. Exactly one should get it; the other 19 get a 409. Then the hold is cancelled again.
 // Run with: npm run race (after npm run setup)
-import { Tiempo, TiempoConflictError } from '@doubletap/tiempo'
+import { Tiempo, TiempoConflictError } from '@tiempo/sdk'
 import { loadEnv, testKey } from './env.mjs'
 
 loadEnv()

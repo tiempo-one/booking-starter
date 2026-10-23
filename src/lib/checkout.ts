@@ -1,6 +1,6 @@
 import 'server-only'
 import type Stripe from 'stripe'
-import { TiempoConflictError } from '@doubletap/tiempo'
+import { TiempoConflictError } from '@tiempo/sdk'
 import { stripe } from './payments'
 import { shop } from './tiempo'
 

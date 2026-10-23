@@ -135,7 +135,7 @@ and what not to change, and links to Tiempo's [rules for agents](https://tiempo.
 
 - [Tiempo docs](https://tiempo.one/docs)
 - [Why booking apps double-book](https://tiempo.one/docs/double-booking)
-- [TypeScript SDK](https://github.com/tiempo-one/tiempo-node) (`@doubletap/tiempo` on npm)
+- [TypeScript SDK](https://github.com/tiempo-one/tiempo-node) (`@tiempo/sdk` on npm)
 - [OpenAPI spec](https://api.tiempo.one/openapi.json)
 
 ## Licence

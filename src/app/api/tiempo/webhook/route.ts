@@ -1,4 +1,4 @@
-import { constructEvent, TiempoSignatureVerificationError } from '@doubletap/tiempo'
+import { constructEvent, TiempoSignatureVerificationError } from '@tiempo/sdk'
 
 /**
  * Tiempo's webhook. The starter only logs events; this is where you'd send the customer their

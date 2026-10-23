@@ -1,6 +1,6 @@
 'use server'
 
-import { TiempoConflictError } from '@doubletap/tiempo'
+import { TiempoConflictError } from '@tiempo/sdk'
 import { redirect } from 'next/navigation'
 import { barbers, SHOP_NAME, service as findService } from '@/lib/shop'
 import { appUrl, CHECKOUT_MINUTES, HOLD_MINUTES, PAYMENTS, stripe } from '@/lib/payments'

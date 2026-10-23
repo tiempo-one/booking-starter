@@ -1,6 +1,6 @@
 import 'server-only'
 import { notFound } from 'next/navigation'
-import { TiempoError } from '@doubletap/tiempo'
+import { TiempoError } from '@tiempo/sdk'
 import { shop } from './tiempo'
 
 /** A booking by id, or the 404 page for an id Tiempo doesn't know. */
